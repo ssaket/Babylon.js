@@ -174,5 +174,10 @@ module BABYLON {
          * Textures to keep.
          */
         public textures = new Array<BaseTexture>();
+
+        /**
+         * EffectLayers such as highlightLayer/glowLayer to keep.
+         */
+        public effectLayers = new Array<EffectLayer>();
     }
 }
